@@ -1,5 +1,5 @@
 // Define o pacote (pasta organizacional) ao qual essa classe pertence
-package poo;
+package Poo_Exercicios_Iniciais;
 
 // Declara a classe Pessoa
 // Uma classe é como um molde/blueprint que descreve como uma Pessoa deve ser

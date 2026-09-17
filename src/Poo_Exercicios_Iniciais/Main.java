@@ -1,5 +1,5 @@
 // Define o pacote (pasta organizacional) ao qual essa classe pertence
-package poo;
+package Poo_Exercicios_Iniciais;
 
 // Classe Main - classe responsável por executar o programa
 // Toda aplicação Java precisa de uma classe com o método main()
