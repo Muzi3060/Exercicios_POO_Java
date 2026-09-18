@@ -7,10 +7,10 @@ public class Termostato {
         return temperatura + "°C";
     }
 
-    public double setTemperatura(double temperatura) {
-        if (temperatura < 10) {
-            this.temperatura = 10;
-        } else if (temperatura > 30) {
+    public void setTemperatura(double temperatura) {
+        if (temperatura <= 16) {
+            this.temperatura = 16;
+        } else if (temperatura >= 30) {
             this.temperatura = 30;
         } else {
             if ((temperatura * 2) % 1 != 0)  {
@@ -19,6 +19,5 @@ public class Termostato {
                 this.temperatura = temperatura;
             }
         }
-        return this.temperatura;
     }
 }
