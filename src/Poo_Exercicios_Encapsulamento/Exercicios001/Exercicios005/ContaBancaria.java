@@ -2,7 +2,6 @@ package Poo_Exercicios_Encapsulamento.Exercicios001.Exercicios005;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Scanner;
 
 public class ContaBancaria {
     protected int id;
